@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 4</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        direction: rtl;
+      }
+      #picture img {
+        width: 100vw;
+        height: 742px;
+        margin-top: 0;
+        position: absolute;
+        z-index: 1;
+      }
+      #box1 {
+        width: 100vw;
+        height: 742px;
+        margin-top: 0;
+        padding-top: 280px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        position: absolute;
+        z-index: 2;
+      }
+      #box1 h2 {
+        font-size: 86px;
+        color: #d3e10e;
+        font-family: "Heebo";
+      }
+      #box1 p {
+        font-size: 20px;
+        color: #fff;
+        font-family: "Heebo";
+      }
+      #information {
+        width: 100vw;
+        height: 337px;
+        margin-top: 742px;
+        padding-top: 106px;
+        text-align: center;
+        position: absolute;
+        z-index: 3;
+      }
+      #information .a {
+        font-size: 16px;
+        color: #011560;
+        font-family: "Heebo";
+      }
+      #information .b {
+        width: 417px;
+        height: 50px;
+        background-color: #f6f6f6;
+        border: #f6f6f6;
+        border-bottom: 4px solid #d3e10e;
+      }
+      #information button {
+        width: 166px;
+        height: 45px;
+        background-color: #d3e10e;
+        color: #011560;
+        font-size: 22px;
+        border: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="picture"><img src="../../images/blue.png" alt="blue" /></div>
+    <div id="box1">
+      <h2>תן לנו להוביל אותך קדימה</h2>
+      <br />
+      <p>
+        לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא
+        מקום” בעת עריכה.
+      </p>
+    </div>
+    <br /><br />
+    <div id="information">
+      <label for="" class="a">שם</label>
+      <input type="text" class="b" />
+      <label for="" class="a">דוא"ל</label>
+      <input type="text" class="b" />
+      <button>שליחה</button>
+    </div>
+  </body>
+</html>

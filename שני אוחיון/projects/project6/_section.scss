@@ -1,0 +1,24 @@
+section {
+  .container {
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .item {
+    width: 450px;
+    height: 330px;
+    padding-top: 70px;
+    background-color: #f8f8f8;
+    padding: 30px;
+    text-align: center;
+  }
+  h2 {
+    color: #0ee1e1;
+    font-size: 30px;
+  }
+  p {
+    color: #000;
+    font-size: 15px;
+  }
+}

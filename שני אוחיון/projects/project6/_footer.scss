@@ -1,0 +1,18 @@
+footer {
+  text-align: center;
+  .dot {
+    margin: 20px;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    padding-top: 19px;
+    background-color: #0ee1e1;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #footer {
+    width: 100vw;
+    height: 15px;
+    background-color: #0ee1e1;
+  }
+}

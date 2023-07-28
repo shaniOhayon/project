@@ -1,0 +1,50 @@
+header {
+  width: 100vw;
+  height: 635px;
+  background-color: #0ee1e1;
+  color: #000;
+  #text {
+    width: 100vw;
+    height: 635px;
+    direction: rtl;
+    padding-right: 350px;
+    padding-top: 232px;
+    margin-top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  h1 {
+    font-size: 66px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .dot {
+    height: 95px;
+    width: 95px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #circle {
+    margin-top: 65px;
+    margin-left: 65px;
+    direction: ltr;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 2;
+  }
+  #box {
+    direction: rtl;
+    width: 325px;
+    margin-top: 183px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: 3;
+  }
+  #picture {
+    padding-top: 19px;
+  }
+}
