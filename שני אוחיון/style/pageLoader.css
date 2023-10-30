@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+body {
+  background-color: #ad5ef6c7;
+}
+h2 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.container {
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.row {
+  padding-top: 5%;
+}
+/* #pageDiv {
+  overflow: auto;
+} */
+.col-8 {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* overflow: hidden; */
+}
+.form-label {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}

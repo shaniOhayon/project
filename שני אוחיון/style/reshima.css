@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+}
+
+.container {
+  width: 100vw;
+  direction: rtl;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.container .item1 {
+  width: 30vw;
+  margin-top: 15%;
+}
+
+.container .item2 {
+  width: 30vw;
+  height: 80vh;
+  padding: 2%;
+  background-color: #0000006a;
+  overflow: auto;
+}
+
+.container .item1 h2 {
+  font-size: 5vmin;
+  color: #000;
+}
+
+#item {
+  width: 20vw;
+  margin-top: 5%;
+  border-bottom: 3px solid #0ee1e1;
+}
+
+#btn {
+  width: 20vw;
+  margin-top: 3%;
+}

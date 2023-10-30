@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>math game</title>
+    <link rel="stylesheet" href="../../../style/mathGame.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <img
+      src="../../../images/domino1.jpg"
+      class="img-fluid"
+      alt="domino image"
+    />
+    <div class="container">
+      <form id="form1">
+        <h1>לומדת חשבון</h1>
+        <p>
+          לפניכם תרגיל, כתבו את הפתרון, לחצו על הכפתור וגלו האם התשובה נכונה או
+          לא. במקרה והתשובה שגויה נסו שוב בהצלחה!!!
+        </p>
+        <div class="col-auto">
+          <label for="answer" class="col-form-label" id="quest">1+1=</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="answer" class="form-control" />
+        </div>
+        <br />
+        <div class="d-grid gap-2">
+          <input type="submit" class="btn btn-warning" value="שלח" />
+          <button
+            type="button"
+            class="btn btn-warning"
+            id="clean"
+            onClick="window.location.reload()"
+          >
+            תרגיל חדש
+          </button>
+        </div>
+      </form>
+      <div class="text">
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <script src="../../../script/mathGame.js"></script>
+  </body>
+</html>
